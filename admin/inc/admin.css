@@ -1,0 +1,44 @@
+.controls {
+  float: left;
+  width: 50px;
+  margin-left: -50px;
+}
+.controls IMG {
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+#alert {
+  color: #DF0808;
+  font-weight: bold;
+  height: 1em;
+  line-height: 1em;
+}
+
+.abutton {
+  display: block;
+  height: auto;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #262626;
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 90%;
+}
+
+#togglebutton {
+  cursor: pointer;
+  font-size: 85%;
+  font-weight: bold;
+  background: #E7B44B;
+  padding: 5px 5px;
+  width: auto;
+  margin: 0 auto;
+  color: #000000;
+  border: 1px solid #B17906;
+  float: right;
+}
+
+#togglebutton:hover {
+  color: #3C3C3C;
+}

@@ -41,3 +41,24 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Wordpress files
+blog/*.log
+blog/.htaccess
+blog/sitemap.xml
+blog/sitemap.xml.gz
+blog/wp-config.php
+blog/wp-content/advanced-cache.php
+blog/wp-content/backup-db/
+blog/wp-content/backups/
+blog/wp-content/blogs.dir/
+blog/wp-content/cache/
+blog/wp-content/upgrade/
+blog/wp-content/uploads/
+blog/wp-content/wp-cache-config.php
+
+# Directory specific
+admin/login.php
+backup/
+pdf/
+resellers-login.php
