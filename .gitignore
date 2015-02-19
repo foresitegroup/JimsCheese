@@ -58,7 +58,12 @@ blog/wp-content/uploads/
 blog/wp-content/wp-cache-config.php
 
 # Directory specific
+admin/inc/PHPExcel
+admin/inc/PHPExcel.php
 admin/login.php
 backup/
+inc/dbconfig.php
 pdf/
+products/admin/includes/configure*
+products/includes/configure*
 resellers-login.php
