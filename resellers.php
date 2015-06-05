@@ -37,7 +37,7 @@ Welcome to Jim's Cheese product and price guides. To talk to a customer service 
   <a href="pdf/resellers/LFAPricingV4.pdf">Lake Forest Artisan Pricing</a><br>
   <?php } ?>
   
-  <a href="pdf/Jim's_Cheese_Brochure_2014.pdf">Brochure 2014</a><br>
+  <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><br>
   <a href="pdf/resellers/June_2015_Specials.pdf">June 2015 Specials</a>
 </div><br>
 <br>

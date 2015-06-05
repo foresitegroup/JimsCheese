@@ -115,7 +115,7 @@ function email($address, $name="") {
     
     <div id="featured">
       <a href="<?php echo $TopDir; ?>resellers.php">Monthly Specials</a><br>
-      <a href="<?php echo $TopDir; ?>pdf/Jim's_Cheese_Brochure_2014.pdf">Brochure 2014</a>
+      <a href="<?php echo $TopDir; ?>pdf/Jim's_Cheese_Brochure.pdf">Brochure</a>
     </div>
     
     <?php if (strtotime("now") <= strtotime("11 October 2013 3:00pm")) { ?>
