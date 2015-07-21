@@ -13,7 +13,7 @@
       ?>
       <li><a href="<?php echo $TopDir; ?>something-special-from-wisconsin.php">Something Special From Wisconsin</a></li>
       <li><a href="<?php echo $TopDir; ?>featured-items.php">Featured Items</a></li>
-      <li><a href="<?php echo $TopDir; ?>pdf/Product_Line.pdf">Product Line PDF</a></li>
+      <!-- <li><a href="<?php //echo $TopDir; ?>pdf/Product_Line.pdf">Product Line PDF</a></li> -->
     </ul>
   </li>
   <li class="m3">
