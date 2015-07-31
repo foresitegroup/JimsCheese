@@ -35,7 +35,7 @@
       </div>
     </div>
     
-    <a href="http://trade.eatwisconsincheese.com/retail/wi_cheese_company_search/companydetail.aspx?companyid=12&companyinfoid=23"><img src="<?php echo $TopDir; ?>images/wisconsin-cheese-seal.png" alt="Wisconsin Cheese" style="float: right; height: 65px;"></a>
+    <a href="http://www.eatwisconsincheese.com"><img src="<?php echo $TopDir; ?>images/wisconsin-cheese-seal.png" alt="Wisconsin Cheese" style="float: right; height: 65px;"></a>
     <a href="https://www.aibonline.org"><img src="<?php echo $TopDir; ?>images/aib-logo.png" alt="American Institute of Baking" style="float: right; height: 65px; margin-right: 20px;"></a>
     <img src="<?php echo $TopDir; ?>images/sqf.jpg" alt="SQF Certified" style="float: right; height: 65px; margin-right: 20px;">
     

@@ -11,8 +11,8 @@
         echo "<li><a href=\"" . $TopDir . "products/index.php?cPath=" . $row['categories_id'] . "\">" . $row['categories_name'] . "</a></li>\n";
       }
       ?>
-      <!-- <li><a href="<?php echo $TopDir; ?>something-special-from-wisconsin.php">Something Special From Wisconsin</a></li> -->
-      <li><a href="<?php echo $TopDir; ?>featured-items.php">Featured Items</a></li>
+      <!-- <li><a href="<?php //echo $TopDir; ?>something-special-from-wisconsin.php">Something Special From Wisconsin</a></li> -->
+      <!-- <li><a href="<?php //echo $TopDir; ?>featured-items.php">Featured Items</a></li> -->
       <!-- <li><a href="<?php //echo $TopDir; ?>pdf/Product_Line.pdf">Product Line PDF</a></li> -->
     </ul>
   </li>
@@ -20,7 +20,7 @@
     <a href="<?php echo $TopDir; ?>artisan-cheeses.php">Artisan Cheeses</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>products/index.php?cPath=22">Lake Forest Artisan</a></li>
-      <li><a href="<?php echo $TopDir; ?>pdf/Lake_Forest_Artisan_Line.pdf">Lake Forest Artisan Line PDF</a></li>
+      <!-- <li><a href="<?php //echo $TopDir; ?>pdf/Lake_Forest_Artisan_Line.pdf">Lake Forest Artisan Line PDF</a></li> -->
     </ul>
   </li>
   <li class="m4"><a href="<?php echo $TopDir; ?>blog/">Jim's Blog</a></li>
