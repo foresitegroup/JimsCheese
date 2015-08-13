@@ -177,9 +177,9 @@ var google_conversion_value = 0;
 
           <div style="float: left; width: 20px; font-weight: bold;"><img src="images/markers/<?php echo $color; ?>_Marker<?php if ($GMindex < 26) echo $letter; ?>.png"></div>
           <div style="margin-left: 25px; text-transform: uppercase;">
-            <?php echo $row['customer']; ?><br>
-            <?php echo $row['address']; ?><br>
-            <?php echo $row['city']; ?>, <?php echo $row['state']; ?> <?php echo $row['zip']; ?><br>
+            <?php echo stripslashes($row['customer']); ?><br>
+            <?php echo stripslashes($row['address']); ?><br>
+            <?php echo stripslashes($row['city']); ?>, <?php echo $row['state']; ?> <?php echo $row['zip']; ?><br>
             <?php if (!empty($row['telephone'])) echo $row['telephone'] . "<br>"; ?>
             <?php
             //if (!empty($row['website'])) {
@@ -196,9 +196,9 @@ var google_conversion_value = 0;
 
           <?php
           // Generate address string for map info box
-          $info = "<strong>" . $row['customer'] . "</strong><br>";
-          $info .= $row['address'] . "<br>";
-          $info .= $row['city'] . ", " . $row['state'] . " " . $row['zip'] . "<br>";
+          $info = "<strong>" . stripslashes($row['customer']) . "</strong><br>";
+          $info .= stripslashes($row['address']) . "<br>";
+          $info .= stripslashes($row['city']) . ", " . $row['state'] . " " . $row['zip'] . "<br>";
           if (!empty($row['telephone'])) $info .= $row['telephone'] . "<br>";
           //if (!empty($row['website'])) {
           //  $fullurl = (substr($row['website'], 0, 7) == "http://") ? $row['website'] : "http://" . $row['website'];

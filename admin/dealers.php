@@ -133,9 +133,9 @@ include "header.php";
         <a href="dealers-db.php?a=delete&id=<?php echo $row['id']; ?>" onClick="return(confirm('Are you sure you want to delete this dealer?'));"><img src="images/delete.png" alt="Delete" title="Delete"></a>
       </td>
       <td style="padding: 3px 15px 3px 0;">
-        <?php echo $row['customer']; ?><br>
-        <?php echo $row['address']; ?><br>
-        <?php echo $row['city']; ?>, <?php echo $row['state']; ?> <?php echo $row['zip']; ?>
+        <?php echo stripslashes($row['customer']); ?><br>
+        <?php echo stripslashes($row['address']); ?><br>
+        <?php echo stripslashes($row['city']); ?>, <?php echo $row['state']; ?> <?php echo $row['zip']; ?>
       </td>
       <td style="padding: 3px 4px 3px 0;" valign="top">
         <?php echo $row['telephone']; ?>

@@ -3,7 +3,7 @@ include "../inc/dbconfig.php";
 
 switch ($_GET['a']) {
   case "add":
-    mysql_query("INSERT INTO where_can_i_buy (
+    mysql_query("INSERT INTO `where_can_i_buy` (
                 customer,
                 address,
                 city,
@@ -13,13 +13,13 @@ switch ($_GET['a']) {
                 latitude,
                 longitude
                 ) VALUES (
-                '" . $_POST['customer'] . "',
-                '" . $_POST['address'] . "',
-                '" . $_POST['city'] . "',
+                '" . mysql_real_escape_string($_POST['customer']) . "',
+                '" . mysql_real_escape_string($_POST['address']) . "',
+                '" . mysql_real_escape_string($_POST['city']) . "',
                 '" . $_POST['state'] . "',
                 '" . $_POST['zip'] . "',
-                '" . $_POST['telephone'] . ",'
-                '" . $_POST['latitude'] . ",'
+                '" . $_POST['telephone'] . "',
+                '" . $_POST['latitude'] . "',
                 '" . $_POST['longitude'] . "'
                 )");
     break;
