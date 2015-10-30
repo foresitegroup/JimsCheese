@@ -195,6 +195,16 @@ Lake Forest Artisan Cheese represents a family of farmstead, single herd cheeses
 
 <div style="clear: both;"></div><br><br>
 
+<img src="images/artisan-marthas-pimento-cheese.jpg" alt="Martha's Pimento Cheese" class="left">
+<div style="float: right; width: 730px;">
+  <strong>Martha's Pimento Cheese</strong><br>
+  Martha's Pimento Cheese marries the best of Southern food traditions with the best of Wisconsin's finest contribution to American eating: great cheese. Martha's Pimento Cheese is the evolution of generations of pimento-cheese-eating and making, weaving the culinary traditions of Martha's Southern roots to her new found home in Wisconsin's famed Dairyland. Handcrafted in small batches with premium ingredients, this cheese is meant to comfort and nourish. Available in Mild, Jalape&ntilde;o and Chile de &Aacute;rbol. Spread MPC on a sandwich, crown your best burger, tuck into an omelette, or straight off the spoon. ACS Winner.<br>
+  <a href="http://www.mightyfinefood.us">www.mightyfinefood.us</a>
+  <a href="products/product_info.php?products_id=120" style="float: right;">See Select Products</a>
+</div>
+
+<div style="clear: both;"></div><br><br>
+
 <!--
 <img src="images/artisan-noble-view-creamery.png" alt="Noble View Creamery" class="left">
 <div style="float: right; width: 730px;">
