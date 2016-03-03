@@ -42,7 +42,7 @@ Welcome to Jim's Cheese product and price guides. To talk to a customer service 
   <?php } ?>
   
   <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><br>
-  <!-- <a href="pdf/resellers/December_2015_Specials.pdf">December 2015 Specials</a> -->
+  <a href="pdf/resellers/March_2016_Specials.pdf">March 2016 Specials</a>
 </div><br>
 <br>
 
