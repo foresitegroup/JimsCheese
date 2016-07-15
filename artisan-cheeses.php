@@ -297,9 +297,10 @@ Lake Forest Artisan Cheese represents a family of farmstead, single herd cheeses
 
 <div style="clear: both;"></div><br><br>
 
-<img src="images/saxon-flavor-by-nature.jpg" alt="Saxon Homestead Creamery" class="left">
+<img src="images/artisan-saxon.png" alt="Saxon Homestead Creamery" class="left">
 <div style="float: right; width: 730px;">
   <div style="float: right; margin-left: 15px; width: 85px; text-align: center;">
+    <img src="images/world-cheese-awards.png" alt="World Cheese Awards"><br>
     <img src="images/us-champion-cheese-small.png" alt="United States Championship Cheese Contest">
   </div>
   <strong>Saxon Homestead Creamery</strong><br>
