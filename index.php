@@ -13,7 +13,7 @@ include "header.php";
 <div style="float: right; width: 303px;">
   <a href="artisan-cheeses.php" style="width: 303px; height: 110px; display: block; margin-bottom: 12px;"><img src="images/spiff-artisan-cheeses.jpg" alt="Artisan Cheeses"></a>
   <!--<a href="jims-cheese-pantry-and-cafe.php" style="width: 303px; height: 110px; display: block; margin-bottom: 13px;"><img src="images/spiff-pantry.jpg" alt="Jim's Cheese Pantry &amp; Cafe"></a>-->
-  <a href="pdf/resellers/April_May_2016_Specials.pdf" style="width: 303px; height: 110px; display: block; margin-bottom: 13px;"><img src="images/spiff-featured-items.jpg" alt="Featured Items"></a>
+  <a href="pdf/resellers/June-July_2016_Specials.pdf" style="width: 303px; height: 110px; display: block; margin-bottom: 13px;"><img src="images/spiff-featured-items.jpg" alt="Featured Items"></a>
   <a href="where-can-i-buy.php"><img src="images/spiff-where.jpg" alt="Where Can I Buy?"></a>
 </div>
 
