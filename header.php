@@ -1,4 +1,6 @@
 <?php
+$MonthlySpecials = "September_2016_Specials";
+$MonthlySpecialsTitle = "September 2016 Specials";
 //$TopDir = "http://localhost/JimsCheese/";
 //$ProductsDir = "http://localhost/JimsCheese/products/";
 if ($TopDir == "") $TopDir = (basename(dirname($_SERVER['PHP_SELF'])) == "products" || basename(dirname($_SERVER['PHP_SELF'])) == "blog") ? "../" : "";
@@ -114,8 +116,10 @@ function email($address, $name="") {
     <a href="http://www.facebook.com/JimsCheese" title="Facebook" id="facebook"></a>
     
     <div id="featured">
-      <a href="<?php echo $TopDir; ?>resellers.php">Monthly Specials</a><br>
+      <a href="<?php echo $TopDir; ?>resellers.php">Client Area</a><br>
       <a href="<?php echo $TopDir; ?>pdf/Jim's_Cheese_Brochure.pdf">Brochure</a>
+      <br>
+      <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf">Monthly Specials</a>
     </div>
     
     <?php if (strtotime("now") <= strtotime("11 October 2013 3:00pm")) { ?>
