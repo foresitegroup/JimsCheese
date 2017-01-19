@@ -1,6 +1,6 @@
 <?php
-$MonthlySpecials = "December_2016_Specials";
-$MonthlySpecialsTitle = "December 2016 Specials";
+$MonthlySpecials = "January-February_2017_Specials";
+$MonthlySpecialsTitle = "January / February 2017 Specials";
 //$TopDir = "http://localhost/JimsCheese/";
 //$ProductsDir = "http://localhost/JimsCheese/products/";
 if ($TopDir == "") $TopDir = (basename(dirname($_SERVER['PHP_SELF'])) == "products" || basename(dirname($_SERVER['PHP_SELF'])) == "blog") ? "../" : "";
