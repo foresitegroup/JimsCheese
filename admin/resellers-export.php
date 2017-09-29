@@ -8,7 +8,7 @@ require 'inc/PHPExcel.php';
 $objPHPExcel = new PHPExcel();
 
 function PopulateSheet($objPHPExcel, $zone, $sheetname) {
-	$result = mysql_query("SELECT email,firstname,lastname,company FROM resellers WHERE zone = '" . $zone . "' ORDER BY email ASC");
+	$result = $mysqli->query("SELECT email,firstname,lastname,company FROM resellers WHERE zone = '" . $zone . "' ORDER BY email ASC");
 	$headings = array("Email","First Name","Last Name","Company");
   $lastcol = "D";
 	
@@ -21,7 +21,7 @@ function PopulateSheet($objPHPExcel, $zone, $sheetname) {
 	
 	// Loop through the result set
 	$rowNumber = 2;
-	while ($row = mysql_fetch_row($result)) {
+	while($row = $result->fetch_array(MYSQLI_ASSOC)) {
 		$col = 'A';
 		foreach($row as $cell) {
 			$objPHPExcel->getActiveSheet()->setCellValueExplicit($col.$rowNumber, $cell, PHPExcel_Cell_DataType::TYPE_STRING);
